@@ -150,13 +150,23 @@ button{
 
 .projects-description{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
+    margin-right: 800px;
+    margin-top: 50px;
     font-size: 15px;
     color: grey;
+}
+
+.rsp-display{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 800px;
+    margin-top: 50px;
 }
 
 .project-bar{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    justify-content: center;
 }
