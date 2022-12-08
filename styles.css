@@ -86,7 +86,7 @@ button{
     transform: scale(1.25);
 }
 
-.second-section{
+#second-section{
     margin-top: 250px;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ button{
     color: grey;
 }
 
-.third-section{
+#third-section{
     margin-top: 250px;
     display: flex;
     align-items: center;
@@ -132,7 +132,7 @@ button{
     color: grey;
 }
 
-.fourth-section{
+#fourth-section{
     margin-top: 250px;
     display: flex;
     align-items: center;
@@ -167,6 +167,7 @@ button{
 .project-bar{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 200px;
+    margin-bottom: 50px;
     justify-content: center;
 }
