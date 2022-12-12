@@ -14,6 +14,15 @@ function clickHandle4() {
     window.location.href = "https://jlorenzen024.github.io/Rock-Paper-Scissors.github.io/";
 }
 
+function clickHandle5() {
+    window.location.href = "https://github.com/jlorenzen024/weather-app";
+}
+
+function clickHandle6() {
+    window.location.href = "https://jlorenzen024.github.io/2022-Resume.github.io/";
+}
+
+
 window.smoothScroll = function(target) {
     var scrollContainer = target;
     do { //find scroll container
@@ -35,4 +44,13 @@ window.smoothScroll = function(target) {
     }
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+
+function setFadeIn(){
+	document.body.className = 'body fade-in'
+	setTimeout(setFadeOut, 500);
+}
+
+function setFadeOut(){
+	document.body.className = 'body';
 }

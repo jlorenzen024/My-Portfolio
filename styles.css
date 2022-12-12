@@ -5,8 +5,20 @@
 }
 
 body {
+    -webkit-animation: fadein 2s;
+
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .navbar{
@@ -127,8 +139,7 @@ button{
 
 .experience-description{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
-    font-size: 15px;
+    margin-top: 40px;
     color: grey;
 }
 
@@ -160,7 +171,7 @@ button{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-right: 800px;
+    margin-right: 50px;
     margin-top: 50px;
 }
 
@@ -170,4 +181,12 @@ button{
     margin-top: 200px;
     margin-bottom: 50px;
     justify-content: center;
+}
+
+.weather-app {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 50px;
+    margin-top: 50px;
 }
