@@ -22,6 +22,9 @@ function clickHandle6() {
     window.location.href = "https://jlorenzen024.github.io/2022-Resume.github.io/";
 }
 
+function clickHandle7() {
+    window.location.href = "https://jlorenzen024.github.io/Waste-Wrangler-Website.github.io/"
+}
 
 window.smoothScroll = function(target) {
     var scrollContainer = target;
