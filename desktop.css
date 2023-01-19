@@ -59,15 +59,20 @@ li {
 }
 
 .navbar-right{
+    transform: scale(1.25);
     margin-top: 50px;
     position: relative;
 }
 
+.navbar-right:hover{
+    
+    transform: scale(1.25);
+}
+
 button:hover {
     cursor: pointer;
-    filter: drop-shadow(0 0 0.75rem rgb(202, 143, 202));
     transform: scale(1.25);
-    font-family: 'Montserrat', sans-serif;
+    
     font-weight: 900;
 }
 
@@ -142,6 +147,11 @@ button{
     color: grey;
 }
 
+.experience-description:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(202, 143, 202));
+    transform: scale(1.25);
+}
+
 #fourth-section{
     margin-top: 250px;
     display: flex;
@@ -182,6 +192,7 @@ button{
     justify-content: center;
 }
 
+
 .weather-app {
     display: flex;
     align-items: flex-start;
@@ -196,4 +207,17 @@ button{
     justify-content: flex-start;
     margin-right: 50px;
     margin-top: 50px;
+}
+
+.openmenu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.project-list:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(202, 143, 202));
+    transform: scale(1.25);
 }

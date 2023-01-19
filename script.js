@@ -27,6 +27,10 @@ function clickHandle10() {
     window.location.href = "https://github.com/jlorenzen024";
 }
 
+function clickHandle11() {
+  window.location.href = "https://github.com/jlorenzen024/Open-Menu.github.io";
+}
+
 scrollTo = (element) => {
     window.scroll({
       behavior: 'smooth',
@@ -47,3 +51,43 @@ scrollTo = (element) => {
   document.getElementById("header-link3").addEventListener('click', () => {
     scrollTo(document.getElementById("fourth-section"));
   });
+
+  let clip = document.querySelector(".vid")
+
+  clip.addEventListener("mouseover", function (e) {
+    clip.play();
+ })
+
+ clip.addEventListener("mouseout", function (e) {
+  clip.pause();
+})
+
+let clip2 = document.querySelector(".vid2")
+
+clip2.addEventListener("mouseover", function (e) {
+  clip2.play();
+})
+
+clip2.addEventListener("mouseout", function (e) {
+clip2.pause();
+})
+
+let clip4 = document.querySelector(".vid4")
+
+clip4.addEventListener("mouseover", function (e) {
+  clip4.play();
+})
+
+clip4.addEventListener("mouseout", function (e) {
+clip4.pause();
+})
+
+let clip3 = document.querySelector(".vid3")
+
+clip3.addEventListener("mouseover", function (e) {
+  clip3.play();
+})
+
+clip3.addEventListener("mouseout", function (e) {
+clip3.pause();
+})
